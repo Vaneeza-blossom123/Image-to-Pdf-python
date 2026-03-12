@@ -22,7 +22,8 @@ for file in files:
    image=Image.open(path).convert('RGB')
    img.append(image)
    if img:
-     img[0].save("C:\images\output.pdf", save_all=True , append_images=img[1:])
+     img[0].save("enter a folder path to store pdf file", save_all=True , append_images=img[1:])
      print("pdf created successfully")
    else:
+
      print("no image found! pdf is not created")
