@@ -1,2 +1,2 @@
 # Image-to-Pdf-python
-Image(png,jpeg,jpg) to Pdf file
+Convert png,jpeg,jpg files into a single pdf file.
